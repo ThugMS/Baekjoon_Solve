@@ -1,66 +1,66 @@
+//
+//  9466(텀 프로젝트).cpp
+//  Baekjoon
+//
+//  Created by 이민석 on 2022/07/20.
+//
+
 #include <iostream>
 #include <algorithm>
 #include <vector>
-#include <cmath>
-#include <queue>
 #include <cstring>
+#include <queue>
 
-#pragma warning(disable:4996)
-
+#define MAX 100100
 using namespace std;
 
-int ans;
+int t, n;
+int graph[MAX];
+bool visited[MAX];
+bool done[MAX];
+int cnt;
 
-void go(int cur, int start, int cnt, bool done[],int v[100010][1]) {
-	if (cur == start && done[cur] == true) {
-		return;
-	}
-	else if ((cur == start && cnt != 0) || done[cur] == true) {
-		ans += cnt;
-		/*cout << cnt << endl;*/
-	}
-	else {
-		done[cur] = true;
-		go(v[cur][0], start, cnt+1, done, v);
-	}
-	
+void hasCycle( int node) {
+
+    visited[node] = true;
+    int next = graph[node];
+
+    
+    if (!visited[next]) {
+        hasCycle( next);
+    }
+    else if (!done[next]) {
+        for (int i = next; i != node; i = graph[i]) {
+            cnt++;
+        }
+        cnt++;
+    }
+    done[node] = true;
 }
+
 
 int main() {
 
-	
-
-	int T;
-
-	int n;
-
-	scanf("%d", &T);
-	
-	for (int K = 0; K < T; K++) {
-		int v[100010][1];
-
-		bool done[100010] = {false, };
-
-		ans = 0;
-
-		scanf("%d", &n); 
-		for (int i = 1; i <= n; i++) {
-			
-			scanf("%d", &v[i][0]);
-			
-		}
-
-		for (int i = 1; i <= n; i++) {
-			go(i, i, 0, done, v);
-		}
-
-		cout << ans << endl;
-	}
-
-	
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    cout.tie(0);
+    cin >> t;
+    while (t--) {
+        cin >> n;
+        for (int i = 1; i <= n; i++) {
+            cin >> graph[i];
+        }
+        for (int i = 1; i <= n; i++) {
+            if (!visited[i]) {
+                hasCycle(i);
+            }
+        }
+        cout << n-cnt << '\n';
+        cnt = 0;
+        memset(visited, false, sizeof(visited));
+        memset(done, false, sizeof(done));
+    }
 
 
-	return 0;
+    return 0;
 }
-
-
