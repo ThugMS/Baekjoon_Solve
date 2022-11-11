@@ -146,6 +146,7 @@
     <ClCompile Include="15989.cpp" />
     <ClCompile Include="1806(부분합).cpp" />
     <ClCompile Include="1840%28스도쿠%29.cpp" />
+    <ClCompile Include="2098(외판원 순회).cpp" />
     <ClCompile Include="2239(스도쿠).cpp" />
     <ClCompile Include="2467(용액).cpp" />
     <ClCompile Include="2483(세 용액).cpp" />
