@@ -152,6 +152,7 @@
     <ClCompile Include="2483(세 용액).cpp" />
     <ClCompile Include="2623(음악프로그램).cpp" />
     <ClCompile Include="7579(앱).cpp" />
+    <ClCompile Include="9252(LCS 2).cpp" />
     <ClCompile Include="데브시스터즈_클라이언트1.cpp" />
     <ClCompile Include="데브시스터즈_클라이언트2.cpp" />
     <ClCompile Include="데브시스터즈_클라이언트3.cpp" />

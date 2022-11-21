@@ -66,5 +66,8 @@
     <ClCompile Include="데브시스터즈_클라이언트3.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="9252(LCS 2).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
