@@ -54,5 +54,17 @@
     <ClCompile Include="7579(앱).cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="연습.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="데브시스터즈_클라이언트1.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="데브시스터즈_클라이언트2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="데브시스터즈_클라이언트3.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
