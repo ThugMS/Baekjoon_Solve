@@ -140,6 +140,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="1005(ACM Craft).cpp" />
+    <ClCompile Include="11049(행렬 곱셈 순서).cpp" />
     <ClCompile Include="1182(부분수열의 합).cpp" />
     <ClCompile Include="1197(최소 스패팅트리).cpp" />
     <ClCompile Include="1208(부분수열의 합2).cpp" />

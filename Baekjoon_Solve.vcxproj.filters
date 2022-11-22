@@ -69,5 +69,8 @@
     <ClCompile Include="9252(LCS 2).cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="11049(행렬 곱셈 순서).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
