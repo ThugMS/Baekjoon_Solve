@@ -157,6 +157,8 @@
     <ClCompile Include="데브시스터즈_클라이언트1.cpp" />
     <ClCompile Include="데브시스터즈_클라이언트2.cpp" />
     <ClCompile Include="데브시스터즈_클라이언트3.cpp" />
+    <ClCompile Include="삼성-기념품 수집.cpp" />
+    <ClCompile Include="삼성-현석이의 생일.cpp" />
     <ClCompile Include="연습.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

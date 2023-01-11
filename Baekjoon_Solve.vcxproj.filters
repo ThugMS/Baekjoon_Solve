@@ -72,5 +72,11 @@
     <ClCompile Include="11049(행렬 곱셈 순서).cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="삼성-기념품 수집.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="삼성-현석이의 생일.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
